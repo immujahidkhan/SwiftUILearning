@@ -10,13 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .center){
-            CircleImage().offset(x:2,y:-2)
-            Text("Umer")
-                .font(.headline)
-            Text("Learning new stuff")
-                .font(.subheadline)
-        }.padding()
+        VStack(alignment: .leading){
+            HStack{
+                CircleImage()
+                VStack(alignment:.leading){
+                    Text("Umer")
+                        .font(.headline)
+                    Text("Learning new stuff")
+                        .font(.subheadline)
+                }
+            }
+        }
     }
 }
 
