@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center){
+            CircleImage().offset(x:2,y:-2)
             Text("Umer")
                 .font(.headline)
             Text("Learning new stuff")
