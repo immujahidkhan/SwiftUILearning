@@ -11,10 +11,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center){
-            Text("Umer Rajput")
+            Text("Umer")
                 .font(.headline)
-            Text("learning new stuff")
-            .font(.subheadline)
+            Text("Learning new stuff")
+                .font(.subheadline)
         }.padding()
     }
 }
