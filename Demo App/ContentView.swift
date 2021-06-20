@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center){
-            Text("Umer")
+            Text("SHAHID")
                 .font(.headline)
             Text("Learning new stuff")
                 .font(.subheadline)
