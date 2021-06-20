@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading){
+        List(0..<10) { _ in
             HStack{
                 CircleImage()
                 VStack(alignment:.leading){
