@@ -21,6 +21,14 @@ struct ContentView: View {
                 }
             }
         }
+//        VStack(alignment: .center){
+//            Text("SHAHID")
+//            CircleImage().offset(x:2,y:-2)
+//            Text("Umer")
+//                .font(.headline)
+//            Text("Learning new stuff")
+//                .font(.subheadline)
+//        }.padding()
     }
 }
 
